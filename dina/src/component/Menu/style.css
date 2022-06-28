@@ -1,0 +1,20 @@
+
+.container{
+     margin-top: 50px;
+     /* z-index:1047; */
+}
+.offcanvas .offcanvas-top .show{
+    height: 92%;
+    margin: 2%;
+    
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  transform: none;
+  height: 92%;
+  margin: 2%;
+}
+.offcanvas-title{
+    display: flex;
+    flex-direction: column;
+
+}
