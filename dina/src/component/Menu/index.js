@@ -56,6 +56,9 @@ function Menu() {
             <div className="navBar">
             <span data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop"> <Link to={"/main"}>Home</Link></span>
+            <span data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop"
               aria-controls="offcanvasTop"><Link  to={"/about"}  
               >About</Link></span>
          
