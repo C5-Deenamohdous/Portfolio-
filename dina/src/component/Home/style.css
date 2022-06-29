@@ -1,13 +1,36 @@
 .col{
 width: 100%;
 display: flex;
-justify-content: center;
+}
+.skillsPargraph{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+    margin-left:9%;
+
+}
+.skillsPargraph h3{
+    position: relative;
+    color: #1c494c;
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.skillsPargraph p{
+    margin-top: 20px;
+width: 70%;
+color: #1c494c;
+font-size: 20px;
 }
 .tagcloud{
     font-size: 24px;
     font-weight: 600;
 }
 .content{
- 
     width: 50%;
+justify-content: end;
 }
