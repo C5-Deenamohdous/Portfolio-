@@ -1,0 +1,57 @@
+.contactContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-left: 9%;
+    gap: 15%;
+    margin-top: 40px;
+}
+.form{
+    display: flex; 
+    flex-direction: column;
+    width: 50%;
+
+}
+.mapRight{
+    width: 50%;
+
+}
+.nameAndMailContainer{
+    display: flex;
+    width: 100%;
+}
+.nameInput,.mailInput{
+    width: 50%;
+}
+.hederContact{
+display: flex;
+position: relative;
+color: #1c494c;
+font-size: 40px;
+font-family: sans-serif;
+width: 70%;
+width: 80%;
+justify-content: left;
+align-items: flex-start;
+transition: all 0.3s ease-out;
+margin-left: 9%;  
+margin-top: 50px;
+}
+.col-12{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+flat-button span.text:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    right: 0;
+    bottom: 0;
+    background: #08fdd8;
+    position: absolute;
+    -webkit-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    z-index: 5;
+}

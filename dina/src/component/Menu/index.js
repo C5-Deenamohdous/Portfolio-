@@ -53,6 +53,7 @@ function Menu() {
                 <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
               </a>
             </div>
+            <div className="navBar">
             <span data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
               aria-controls="offcanvasTop"><Link  to={"/about"}  
@@ -70,6 +71,7 @@ function Menu() {
               aria-controls="offcanvasTop">  <Link to={"/contact"}>Contact</Link></span>
           
           </div>{" "}
+          </div>
         </div>
       </div>
       {/* <div class="offcanvas-body">...</div> */}

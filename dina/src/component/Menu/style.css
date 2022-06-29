@@ -13,6 +13,12 @@
   height: 92%;
   margin: 2%;
   background-color:#9bdabe;
+  
+}
+.navBar{
+    display: flex;
+    flex-direction: column;
+line-height: 80px;
 }
 
 .offcanvas-title{
@@ -26,6 +32,7 @@ line-height: 80px;
     margin-left: 50px;
 
 }
+
 .socialInfo{
     display: flex;
     gap: 20%;
