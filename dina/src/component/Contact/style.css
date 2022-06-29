@@ -10,19 +10,30 @@
     display: flex; 
     flex-direction: column;
     width: 50%;
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    gap: 10px;
 }
 .mapRight{
     width: 50%;
 
 }
+.allInputs{
+     margin: 15px ;
+    
+}
 .nameAndMailContainer{
     display: flex;
     width: 100%;
+   
 }
 .nameInput,.mailInput{
     width: 50%;
+    margin: 5px;
 }
+.col-auto{
+    margin: 5px;
+}
+
 .hederContact{
 display: flex;
 position: relative;
@@ -36,11 +47,13 @@ align-items: flex-start;
 transition: all 0.3s ease-out;
 margin-left: 9%;  
 margin-top: 50px;
+
 }
 .col-12{
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 flat-button span.text:after {
     content: "";

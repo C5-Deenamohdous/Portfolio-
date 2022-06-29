@@ -31,7 +31,8 @@ function Contact() {
     <div className="contactContainer">
      
       <div className="form">
-      <form className="form-row" ref={form} onSubmit={sendEmail}>
+      <form  ref={form} onSubmit={sendEmail}>
+        <div className="allInputs">
       <div className="nameAndMailContainer">
       <div className="nameInput">
     <label className="visually-hidden" for="autoSizingInput">Name</label>
@@ -41,7 +42,7 @@ function Contact() {
     <label className="visually-hidden" for="autoSizingInputGroup">Email</label>
     <div className="input-group">
       <div className="input-group-text">@</div>
-      <input type="text" className="form-control" id="autoSizingInputGroup" placeholder="Username"/>
+      <input type="text" className="form-control" id="autoSizingInputGroup" placeholder="Email"/>
     </div>
   </div>
   </div>
@@ -49,9 +50,11 @@ function Contact() {
     <label className="visually-hidden" for="autoSizingInput">Name</label>
     <input type="text" className="form-control" id="autoSizingInput" placeholder="Subject"/>
   </div>
+  <div className="textArea">
   <div className="col-auto">
     <label className="visually-hidden" for="autoSizingInput">Name</label>
     <textarea type="text" className="form-control" id="autoSizingInput" placeholder="Message"/>
+  </div></div>
   </div>
       <div className="col-12">
     <button type="submit" className="btn btn-primary"><span>Send Message!</span></button>
