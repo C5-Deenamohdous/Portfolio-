@@ -1,5 +1,9 @@
+.main{
+    display: flex;
+    width: 100%;
+}
 .mainAbout{
-    width: 90%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -12,9 +16,17 @@
     font-size: 60px;
     font-family: sans-serif;
     width: 70%;
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+   
+}
+.headerAbout::before{
+    content: "";
+    border-bottom: solid 2px #74cadc;
+position:absolute;
+width: 20%;
+bottom: 24px;
 }
 .pagAbout{
     font-size: 20px;
@@ -24,6 +36,11 @@
     justify-content: center;
     align-items: center;
 }
-.lineAbout{
-
+.picAbout{
+    display: flex;
+    background-image: url("../../../img/picAbouut.png");
+    background-size: inherit;
+    width: 40%;
+    background-repeat: no-repeat;
+    height: 500px;
 }

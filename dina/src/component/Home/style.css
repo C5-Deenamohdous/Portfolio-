@@ -1,0 +1,13 @@
+.col{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.tagcloud{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content{
+ 
+    width: 50%;
+}

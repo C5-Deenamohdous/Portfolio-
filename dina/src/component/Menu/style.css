@@ -6,17 +6,19 @@
 .offcanvas .offcanvas-top .show{
     height: 92%;
     margin: 2%;
-    background-color: #aadcec;
+    background-color:#9bdabe;
 }
 .offcanvas.show:not(.hiding), .offcanvas.showing {
   transform: none;
   height: 92%;
   margin: 2%;
+  background-color:#9bdabe;
 }
+
 .offcanvas-title{
     display: flex;
     flex-direction: column;
-
+line-height: 80px;
 }
 .closeButton{
     display: flex;
@@ -26,6 +28,7 @@
 }
 .socialInfo{
     display: flex;
+    gap: 20%;
 }
 .offcanvas-header{
     padding: 50px;
@@ -38,5 +41,9 @@
     color: #0f1b61;
 }
 a {
-  color: #0f1b61;;
+  color: #0f1b61;
+  text-decoration: none;
+}
+.menuLine{
+    font-size: 20px;
 }
