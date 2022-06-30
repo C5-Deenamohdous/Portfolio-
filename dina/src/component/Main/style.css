@@ -1,15 +1,19 @@
 .mainPage{
     width: 91%;
-    height: 100%;
+    height: 98%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 2%;
     margin-left: 9%;
+    height: calc(100vh-50px)
 }
 .info{
     width: 60%;
 font-size: 50px;
 font-weight: 600;
 color: #0f1b61;
+}
+.info h1{
+    font-family: 'Merienda', cursive;
 }
 .picInfo{
     width: 40%;

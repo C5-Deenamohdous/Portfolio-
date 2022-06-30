@@ -62,7 +62,7 @@ function Contact() {
       </form>
     </div>
     <div className="mapRight">
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="352" height="255" id="gmap_canvas" src="https://maps.google.com/maps?q=amman&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a> 
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="255" id="gmap_canvas" src="https://maps.google.com/maps?q=amman&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a> 
     <style>.mapouter position:relative;text-align:right;height:358px;width:424px;</style>
     <a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas overflow:hidden;background:none!important;height:358px;width:424px;</style></div></div>
 

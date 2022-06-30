@@ -1,9 +1,12 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import { Link } from "react-router-dom";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 import "./style.css";
 
 function Menu() {
+
+
   return (
     <div className="container">
       <img
@@ -19,26 +22,24 @@ function Menu() {
         id="offcanvasTop"
         aria-labelledby="offcanvasTopLabel"
       >
-        <div className="closeButton">
-          <button
+        {/* <div  className="closeButton"> */}
+        
+        {/* </div> */}
+        <div className="offcanvas-header">
+          <div className="offcanvas-title" id="offcanvasTopLabel">
+            <div className="socialInfo">
+            <span className="closeButton"
             type="button"
 
             // class="btn-close"
             // data-bs-dismiss="offcanvas"
             // aria-label="Close"
-          >
-            <img
-              src="https://img.icons8.com/glyph-neue/64/000000/cancel.png"
-              data-bs-toggle="offcanvas"
+            data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
               aria-controls="offcanvasTop"
-            />
-          </button>
-        </div>
-        <div className="offcanvas-header">
-          <div className="offcanvas-title" id="offcanvasTopLabel">
-            <div className="socialInfo">
-                
+          >
+          <AiFillCloseCircle/>
+          </span>
               <a href="https://www.linkedin.com/in/dina-al-dous">
                 <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" />
               </a>
@@ -56,7 +57,7 @@ function Menu() {
             <div className="navBar">
             <span data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
-              aria-controls="offcanvasTop"> <Link to={"/main"}>Home</Link></span>
+              aria-controls="offcanvasTop"> <Link to={"/"}>Home</Link></span>
             <span data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
               aria-controls="offcanvasTop"><Link  to={"/about"}  
@@ -75,9 +76,25 @@ function Menu() {
           
           </div>{" "}
           </div>
+          <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
         </div>
       </div>
-      {/* <div class="offcanvas-body">...</div> */}
+    <div className="rightAnimation">
+
+    </div>
     </div>
   );
 }

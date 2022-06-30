@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     margin-left: 9%;
-    gap: 15%;
+    gap: 10%;
     margin-top: 40px;
 }
 .form{
@@ -38,8 +38,6 @@
 display: flex;
 position: relative;
 color: #1c494c;
-font-size: 40px;
-font-family: sans-serif;
 width: 70%;
 width: 80%;
 justify-content: left;
@@ -47,6 +45,9 @@ align-items: flex-start;
 transition: all 0.3s ease-out;
 margin-left: 9%;  
 margin-top: 50px;
+font-size: 60px;
+font-family: 'Merienda', cursive;
+
 
 }
 .col-12{
