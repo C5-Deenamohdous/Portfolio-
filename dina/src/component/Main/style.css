@@ -3,13 +3,13 @@
 
 .mainPage{
     width: 91%;
-    height: 98%;
+    height: 89vh;
     display: flex;
-    margin-top: 2%;
+    margin-top: 2vh;
     margin-left: 9%;
     height: calc(100vh-50px);
     background-color: rgba(255,255,255,1.00);
- 
+  overflow: hidden;
 }
 .info{
     width: 60%;
@@ -22,7 +22,11 @@ font-family: 'Dancing Script', cursive;
 
 .picInfo{
     width: 40%;
-    
+    background-image: url(../../../img/ffffff.jpg);
+    background-repeat: no-repeat;
+    height: 75%;
+    background-size: contain;
+ 
     
 }
 .info h1{
