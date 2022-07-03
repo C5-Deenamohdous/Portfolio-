@@ -1,7 +1,11 @@
 
 .container{
      margin-top: 50px;
-  
+}
+.menuList{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 .offcanvas .offcanvas-top .show{
     display: flex;
@@ -31,9 +35,11 @@
     display: flex;
     flex-direction: column;
 line-height: 70px;
-z-index: 2000;
+z-index: 2000;  
 }
-
+.allMenuList{
+    /* margin-left: 30px; */
+}
 .offcanvas-title{
     display: flex;
     flex-direction: column;
@@ -67,7 +73,7 @@ color: black;
     content: "";
 border-bottom: 5px solid black;
 position: absolute;
-width: 106%;
+width: 72%;
 bottom: 42%;
 left: -99%;
 }
@@ -86,6 +92,7 @@ left: -99%;
 a {
   color: #0f1b61;
   text-decoration: none;
+
 }
 .menuLine{
     font-size: 20px;

@@ -9,7 +9,7 @@ function Menu() {
 
   return (
     <div className="container">
-      <img
+      <img className="menuList"
         src="https://img.icons8.com/external-android-line-2px-amoghdesign/24/000000/external-list-multimedia-line-24px-android-line-2px-amoghdesign-3.png"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasTop"
@@ -54,6 +54,7 @@ function Menu() {
                 <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
               </a>
             </div>
+          
             <div className="navBar">
             <span data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
@@ -74,7 +75,7 @@ function Menu() {
               data-bs-target="#offcanvasTop"
               aria-controls="offcanvasTop">  <Link to={"/contact"}>Contact</Link></span>
           
-          </div>{" "}
+          </div>
           </div>
           <div class="area" >
             <ul class="circles">

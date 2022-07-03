@@ -1,21 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script:wght@500&family=Merienda&display=swap');
+
 .mainPage{
     width: 91%;
     height: 98%;
     display: flex;
     margin-top: 2%;
     margin-left: 9%;
-    height: calc(100vh-50px)
+    height: calc(100vh-50px);
+    background-color: rgba(255,255,255,1.00);
+ 
 }
 .info{
     width: 60%;
 font-size: 50px;
 font-weight: 600;
 color: #0f1b61;
+font-family: 'Dancing Script', cursive;
+  
 }
-.info h1{
-    font-family: 'Merienda', cursive;
-}
+
 .picInfo{
     width: 40%;
     
+    
+}
+.info h1{
+    font-size: 90px;
+}
+.info h4{
+    font-size:50px;
 }
