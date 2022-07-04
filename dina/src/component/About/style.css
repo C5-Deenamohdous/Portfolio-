@@ -137,7 +137,8 @@
       transform: rotateX(90deg);
     }
     to {
-      color: rgb(177, 169, 169);
+      /* color: rgb(177, 169, 169); */
+      color: #0f1b61;;
       transform: rotateX(0deg);
     }
   }

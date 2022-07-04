@@ -12,11 +12,13 @@
   overflow: hidden;
 }
 .info{
+    margin-top: 80px;
     width: 60%;
 font-size: 50px;
 font-weight: 600;
 color: #0f1b61;
 font-family: 'Dancing Script', cursive;
+
   
 }
 

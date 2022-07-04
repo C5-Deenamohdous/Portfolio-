@@ -12,9 +12,10 @@ display: flex;
 }
 .skillsPargraph h3{
     position: relative;
-    color: #1c494c;
-    font-size: 60px;
-    font-family: 'Special Elite', cursive;
+    color: #0f1b61;
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+
     width: 70%;
     width: 100%;
     justify-content: center;
